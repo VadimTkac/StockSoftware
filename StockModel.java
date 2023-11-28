@@ -76,13 +76,13 @@ public class StockModel {
 
             // Construct YH Finance API URL
 
-            URL yhFinanceURL = new URL("https://yh-finance.p.rapidapi.com/market/v2/get-quotes?region=US&symbols=" 
+            URL yhFinanceURL = new URL("https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/v2/get-quotes?region=US&symbols=" 
                 + stockSymb );
                 
             URLConnection urlCon = yhFinanceURL.openConnection();
             
             // neccessary headers for the url connection
-            urlCon.setRequestProperty("X-RapidAPI-Host", "yh-finance.p.rapidapi.com");
+            urlCon.setRequestProperty("X-RapidAPI-Host", "apidojo-yahoo-finance-v1.p.rapidapi.com");
             urlCon.setRequestProperty("X-RapidAPI-Key", API_KEY);
             
             // Open the URL Connection
@@ -1528,6 +1528,5 @@ public class StockModel {
     }
                       
     }
-    
-       
-} // end of class
+
+} 
