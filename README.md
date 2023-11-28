@@ -1,2 +1,2 @@
 # StockSoftware
-This is a stock market software that displays stock information, stock data, and stock charts of the given stock symbol entered.
+This is a stock market ticker information software that displays stock information, stock data, and stock charts of the given stock symbol entered. This software gets real-time stock market data from the Yahoo Finance API and displays it on a graphical user interface that users can search for their stock ticker and get a good amount of data on the stock and even daily news. I have also created a function to check the stock's dividend payout ratio by doing some calculations with the data pulled from the API.
